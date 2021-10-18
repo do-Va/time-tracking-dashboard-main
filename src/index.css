@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+:root {
+  --clr-main-bg: hsl(226, 43%, 10%);
+  --clr-primary-bg-dark: hsl(235, 46%, 20%);
+  --clr-primary-bg-light: hsl(235, 45%, 61%);
+  --clr-user-bg: hsl(246, 80%, 60%);
+
+  --clr-primary: hsl(0, 0%, 100%);
+  --clr-secondary: hsl(236, 100%, 87%);
+
+  --clr-work-border: hsl(15, 100%, 70%);
+  --clr-play-border: hsl(195, 74%, 62%);
+  --clr-study-border: hsl(348, 100%, 68%);
+  --clr-exercise-border: hsl(145, 58%, 55%);
+  --clr-social-border: hsl(264, 64%, 52%);
+  --clr-selfcare-border: hsl(43, 84%, 65%);
+}
+
+/*=============================================
+=                Global Styles                =
+=============================================*/
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  background: var(--clr-main-bg);
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#root {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*=====  End of Global Styles  ======*/
